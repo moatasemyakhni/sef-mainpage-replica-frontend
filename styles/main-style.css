@@ -162,12 +162,32 @@ main {
 
 /* End of rp section */
 img {
-    width: 50%;
+    height: 100px;
     display: block;
     margin: auto;
 }
 .quote-section {
     display: block;
     margin: auto;
-    height: 40px;
+    height: 100px;
+}
+
+/* End of quote section */
+
+.media-section {
+    margin: auto;
+}
+
+.media-section div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.media-section div a {
+    display: block;
+    width: 120px;
+}
+
+.media-section div a img {
+    width: 100%;
 }
