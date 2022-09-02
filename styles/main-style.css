@@ -141,3 +141,21 @@ main {
 }
 
 /* End of section cards */
+
+.rp {
+    width: 100%;
+    padding-top: 3em;
+}
+
+.rp .rp-title, .rp p {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.rp-title {
+    font-size: 1.5em;
+}
+
+.rp img {
+    width: 100%;
+}
