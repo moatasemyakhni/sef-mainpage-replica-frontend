@@ -11,6 +11,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 1em;
+    /* padding-left: 3em; */
     
 }
 
@@ -27,7 +28,7 @@ header {
     margin-left: 1em;
 }
 
-.nav .logo img {
+.nav .logo a img {
     width: 5em;
     height: 5em;
 }
@@ -52,7 +53,7 @@ header {
 }
 
 .headlines .nav-link .nav-p {
-    color: #fff;
+    color: #E9E9E8;
     font-weight: 700;
     font-size: 14px;
 }
@@ -61,12 +62,14 @@ header {
     margin-left: 1em;
 }
 
-.bg-screen .btn-apply-div .btn-apply {
+.bg-screen .btn-apply-div a .btn-apply {
     color: #fff;
+    font-weight: 800;
     background-color: #00DD00;
     padding: 1em;
     border: none;
     border-radius: .5em;
+    cursor: pointer;
 }
 
 .nav .ham {
@@ -95,4 +98,31 @@ header {
         flex-direction: column;
         gap: .5em;
     }
+}
+
+/* End of nav styling */
+
+.introduction {
+    padding-top: 8em;
+    padding-left: 2em;
+}
+
+.introduction .title {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+.introduction .mini-title {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.introduction p {
+    color: #fff;
+    max-width: 20em;
+}
+
+.introduction a .btn-learn {
+    
 }
