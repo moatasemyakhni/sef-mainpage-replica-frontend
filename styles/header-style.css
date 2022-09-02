@@ -6,12 +6,13 @@
 }
 
 header {
-    height: 30em;
+    height: max-content;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/sef-photos/bg_students.jfif");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 1em;
     /* padding-left: 3em; */
+    padding-bottom: 2em;
     
 }
 
@@ -116,13 +117,21 @@ header {
     color: #fff;
     font-size: 2em;
     font-weight: 500;
+    padding-bottom: 2em;
 }
 
 .introduction p {
     color: #fff;
     max-width: 20em;
+    padding-bottom: 1.5em;
 }
 
 .introduction a .btn-learn {
-    
+    color: #fff;
+    font-weight: 800;
+    background-color: #00dc00;
+    padding: 1em;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
 }
