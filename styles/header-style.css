@@ -137,3 +137,23 @@ header {
 }
 
 /* End of header styling */
+
+.sub-section {
+    padding-top: 1em;
+    background-color: #E9E9E8;
+}
+.sub-section h1 {
+    text-align: center;
+}
+.sub-section p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.sub-section button {
+    display: block;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+}
