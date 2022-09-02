@@ -1,0 +1,98 @@
+*::before, *::after, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 30em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/sef-photos/bg_students.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1em;
+    
+}
+
+.nav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav .logo {
+    margin-left: 1em;
+}
+
+.nav .logo img {
+    width: 5em;
+    height: 5em;
+}
+
+.nav .bg-screen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: .5em;
+    align-items: center;
+    gap:.5em;
+}
+
+.nav .bg-screen .headlines {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+
+.headlines .nav-link {
+    text-decoration: none;
+}
+
+.headlines .nav-link .nav-p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.bg-screen .btn-apply-div {
+    margin-left: 1em;
+}
+
+.bg-screen .btn-apply-div .btn-apply {
+    color: #fff;
+    background-color: #00DD00;
+    padding: 1em;
+    border: none;
+    border-radius: .5em;
+}
+
+.nav .ham {
+    padding: 20px;
+    display: none;
+}
+
+.nav .ham .bars {
+    background-color: #fff;
+    padding: .05em;
+    border-radius: .25em;
+    width: 2em;
+}
+
+@media only screen and (max-width: 560px) {
+    .nav {
+        justify-content: space-between;
+    }
+
+    .nav .bg-screen {
+        display: none;
+    }
+    
+    .nav .ham {
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+    }
+}
