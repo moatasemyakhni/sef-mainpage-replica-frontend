@@ -3,12 +3,12 @@ main {
     flex-flow: column nowrap;
     gap: 1em;
     padding-bottom: 2em;
-    width: 80%;
-    margin: 0 auto;
+    /* width: 80%;
+    margin: 0 auto; */
 }
 
 .numbers-section {
-    padding-top: 2em;
+    padding: 2em 2em 0 2em;
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +49,7 @@ main {
 
 .sef-ad {
     display: flex;
+    padding: 0 2em;
 }
 
 .sef-ad div h4 {
@@ -81,4 +82,37 @@ main {
     .sef-ad {
         flex-direction: column;
     }
+}
+
+/* End of section sef-ad */
+
+.program {
+    background-color: #25E200;
+    padding: 0 2em;
+}
+
+.program div h1, .program div h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.program div h1 {
+    font-weight: 500;
+}
+
+.program div h2 {
+
+}
+
+.program .img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.program .img-container a {
+    display: block;
+}
+
+.program .img-container a img {
+    width: 100%;
 }
