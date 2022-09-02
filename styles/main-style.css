@@ -161,21 +161,31 @@ main {
 }
 
 /* End of rp section */
-img {
-    height: 100px;
-    display: block;
-    margin: auto;
-}
 .quote-section {
     display: block;
     margin: auto;
-    height: 100px;
+    height: 250px;
 }
 
+.quote-section img {
+    /* width: 300px; */
+    max-width: 60%;
+    display: block;
+    margin: auto;
+}
 /* End of quote section */
 
 .media-section {
-    margin: auto;
+    padding: 4em 0;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.media-section h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
 }
 
 .media-section div {
@@ -190,4 +200,15 @@ img {
 
 .media-section div a img {
     width: 100%;
+}
+
+@media only screen and (max-width: 560px) {
+    .media-section div {
+        flex-flow: column nowrap;
+    }
+
+    .media-section div a {
+        display: block;
+        width: 200px;
+    }
 }
